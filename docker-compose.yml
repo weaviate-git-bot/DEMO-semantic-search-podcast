@@ -12,7 +12,7 @@ services:
       - '10000s'
       - --write-timeout
       - '10000s'
-    image: semitechnologies/weaviate:preview-automatically-request-properties-that-are-needed-for-groupby-e98008c
+    image: cr.weaviate.io/semitechnologies/weaviate:preview-automatically-request-properties-that-are-needed-for-groupby-e98008c
     restart: on-failure:1
     ports:
      - "8080:8080"
